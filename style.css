@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ====== NavBar ======*/
+
+.navbar .navbar-brand {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.navbar .collapse .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin-right: 10px;
+}
+.navbar .collapse .navbar-nav .nav-link:hover {
+    color: #0B5ED7;
+}
+
+/* ====== NavBar ======*/ 
+
+/* ====== Header ======*/ 
+
+header {
+    padding-top: 3%;
+}
+
+header > div {
+    align-items: center;
+    justify-content: space-around;
+}
+
+header > div > .header-left-side  h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+header > div > .header-left-side p {
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+header > div > .header-left-side  h1 span {
+    color: #FFB72B;
+}
+
+/* ====== media query Header ======*/ 
+
+@media screen and (max-width:600px) {
+    header {
+        text-align: center;
+    }
+    header > div > .header-left-side .btn{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header > div > .header-left-side .btn{
+        margin-bottom: 20px;
+    }
+}
+/* ====== Header ======*/ 
+
+/* ======== New letter ========== */
+
+.new-letter {
+    background-color: #0763FF;
+    padding: 2% 1%;
+}
+
+.new-letter .new-letter-contin {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.new-letter .new-letter-contin h2 {
+    color: white;
+    text-shadow: 0 0 2px white;
+}
+
+.new-letter .new-letter-contin .input-group {
+    width: 40%;
+}
+
+/* media query News letter*/
+@media screen and (max-width:400px) {
+    .new-letter .new-letter-contin h2{
+        font-size: 18px;
+    }
+    .new-letter .new-letter-contin .input-group{
+        margin: auto;
+        width: 100%;
+        padding: 3% 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .new-letter .new-letter-contin h2 {
+        text-align: center;
+    }
+    .new-letter .new-letter-contin .input-group{
+        margin: auto;
+        width: 70%;
+    }
+}
+
+/* media query News letter*/
+
+/* ========= card-section =========== */
+
+.card-section {
+    padding: 3% 0;
+}
+
+.card-section .row {
+    text-align: center;
+}
+
+.card-section .row .card {
+    width: 80%;
+    margin: auto;
+}
+.card-section .row .card .card-body i {
+    font-size: 50px;
+} 
+
+
+/* ========= Media query card-section =========== */
+
+@media screen and (max-width:968px) {
+    .card-section .row .card {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .card-section .row .card {
+        width: 90%;
+        margin-bottom: 20px;
+
+    }
+}
+
+@media screen and (max-width:468px) {
+    .card-section .row .card .card-body i {
+        font-size: 30px;
+    } 
+    .card-section .row .card .card-body {
+        font-size: 14px;
+    }
+}
+
+/* ========= card-section =========== */
+
+/* ========= learn-section =========== */
+
+.learn {
+    padding: 4% 0 3% 0;
+}
+
+.learn .learn-contain {
+    align-items: center;
+    justify-content: space-around;
+}
+.learn .learn-contain .learn-img {
+    width: 70%;
+    margin-right: 5%;
+}
+
+.learn .learn-contain .learn-text {
+    width: 80%;
+}
+
+.learn .learn-contain .learn-text h2 {
+    margin-bottom: 4%;
+}
+
+.learn .learn-contain .learn-text p {
+    margin-bottom: 4%;
+}
+
+/* ========= learn 2-section =========== */
+
+.learn2 {
+    background-color: #1C1F23;
+    padding: 4% 0 3% 0;
+}
+
+.learn2 .learn-contain {
+    align-items: center;
+    justify-content: space-around;
+}
+.learn2 .learn-contain .learn-img {
+    width: 70%;
+    margin-right: 5%;
+}
+
+.learn2 .learn-contain .learn-text {
+    width: 80%;
+    color: white;
+}
+
+.learn2 .learn-contain .learn-text h2 {
+    margin-bottom: 4%;
+}
+
+.learn2 .learn-contain .learn-text p {
+    margin-bottom: 4%;
+}
+
+/* ========= Media Query learn -section =========== */
+
+@media screen and (max-width:968px) {
+    .learn .learn-contain .learn-img {
+        margin-right: 3%;
+        width: 100%;
+    }
+    .learn .learn-contain .learn-text {
+        width: 100%;
+    }
+    /* learn 2 */
+
+    .learn2 .learn-contain .learn-img {
+        margin-left: 3%;
+        width: 100%;
+    }
+    .learn2 .learn-contain .learn-text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .learn .learn-contain .learn-img {
+        margin: 6% auto;
+        width: 90%;
+    }
+    .learn2 .learn-contain .learn-img {
+        margin: 6% auto;
+        width: 90%;
+    }
+}
+
+/* ========= accordion -section =========== */
+
+.accord-section {
+    padding: 3% 0;
+}
+
+.accord-section .accord-contain { 
+    width: 70%;
+}
+
+@media screen and (max-width:568px) {
+    .accord-section .accord-contain { 
+        width: 85%;
+    }
+}
+
+/* ========= footer -section =========== */
+footer  {
+    position: relative;
+}
+
+footer > div > p {
+    margin: 0;
+    padding: 2% 0;
+    text-align: center;
+}
+
+footer > div > a > i {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    font-size: 35px;
+}
