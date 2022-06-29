@@ -1,1 +1,1 @@
-This is first project on Git/Github
+This Project of Responsive Website (Learn Template)
